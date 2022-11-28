@@ -1,0 +1,70 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.273);
+    color: #fff;
+    height: var(--footerHeight);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+}
+
+.byAlmeyda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.byAlmeyda p, .almeyda {
+    font-size: 14px;
+    color: var(--nextui-colors-text-weak);
+}
+.almeyda {
+    text-decoration: underline;
+}
+.powered {
+    user-select: none;
+    margin-right: 2px;
+}
+
+.byAlmeyda {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    animation: byAlmeyda 20s linear infinite;
+	background: var(--byAlmeydacolor);
+	background-size: 400%;
+    z-index: 100;
+}
+
+
+
+@keyframes byAlmeyda{
+	0%{
+        background-position: 0%;
+	}
+	50%{
+        background-position: 400%;
+	}
+	100%{
+		background-position: 0%;
+	}
+}
+
+/* .byAlmeyda::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    top: 0;
+    left: 0;
+	z-index: -1;
+	filter: blur(20px);
+	opacity: .4;
+    animation: byAlmeyda 20s linear infinite;
+	background: var(--byAlmeydacolor);
+	background-size: 400%;
+	backdrop-filter: blur(20px);
+} */
