@@ -139,3 +139,7 @@ h2 {
 .nametext {
 	margin: 0;
 }
+
+li {
+	margin: 0 !important;
+}
