@@ -20,7 +20,7 @@
 .byAlmeyda p,
 .almeyda {
 	font-size: 14px;
-	color: var(--nextui-colors-text-weak);
+	color: #fff;
 }
 .almeyda {
 	text-decoration: underline;
