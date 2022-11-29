@@ -1,54 +1,54 @@
 .footer {
-    background-color: rgba(0, 0, 0, 0.273);
-    color: #fff;
-    height: var(--footerHeight);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: sticky;
-    bottom: 0;
-    z-index: 100;
+	background-color: rgba(0, 0, 0, 0.273);
+	color: #fff;
+	height: var(--footerHeight);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	bottom: 0;
+	z-index: 100;
 }
 
 .byAlmeyda {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.byAlmeyda p, .almeyda {
-    font-size: 14px;
-    color: var(--nextui-colors-text-weak);
+.byAlmeyda p,
+.almeyda {
+	font-size: 14px;
+	color: var(--nextui-colors-text-weak);
 }
 .almeyda {
-    text-decoration: underline;
+	text-decoration: underline;
+	color: #fff;
 }
 .powered {
-    user-select: none;
-    margin-right: 2px;
+	user-select: none;
+	margin-right: 2px;
 }
 
 .byAlmeyda {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    animation: byAlmeyda 20s linear infinite;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	animation: byAlmeyda 20s linear infinite;
 	background: var(--byAlmeydacolor);
 	background-size: 400%;
-    z-index: 100;
+	z-index: 100;
 }
 
-
-
-@keyframes byAlmeyda{
-	0%{
-        background-position: 0%;
+@keyframes byAlmeyda {
+	0% {
+		background-position: 0%;
 	}
-	50%{
-        background-position: 400%;
+	50% {
+		background-position: 400%;
 	}
-	100%{
+	100% {
 		background-position: 0%;
 	}
 }
