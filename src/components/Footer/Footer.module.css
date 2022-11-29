@@ -20,11 +20,11 @@
 .byAlmeyda p,
 .almeyda {
 	font-size: 14px;
-	color: #fff;
+	color: #fff !important;
 }
 .almeyda {
-	text-decoration: underline;
-	color: #fff;
+	text-decoration: underline !important;
+	color: #fff !important;
 }
 .powered {
 	user-select: none;
